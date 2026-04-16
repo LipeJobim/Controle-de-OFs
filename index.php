@@ -5,12 +5,15 @@
 <head>
 <meta charset="UTF-8">
 <title>Centro de Distribuição</title>
-<link rel="stylesheet" href="estilo.css">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="header">
-    Sistema de Controle de OFs
+    <div class="header-content">
+        <img src="img/logo.jpg" class="logo-img">
+        <span class="titulo">Sistema de Controle de OFs</span>
+    </div>
 </div>
 
 <div class="menu">
@@ -24,7 +27,7 @@
 
 <h2>Lista de OFs</h2>
 
-<!-- 🔍 FILTRO -->
+
 <form method="GET" style="margin-bottom:20px;">
 
     <input type="text" name="numero_of" placeholder="Buscar OF">
@@ -57,31 +60,31 @@
 
 $where = [];
 
-// 🔍 FILTRO POR OF
+
 if (!empty($_GET['numero_of'])) {
     $numero = $conn->real_escape_string($_GET['numero_of']);
     $where[] = "`of`.numero_of LIKE '%$numero%'";
 }
 
-// 🔍 FILTRO POR OPD (digitado)
+
 if (!empty($_GET['opd_nome'])) {
     $opd_nome = $conn->real_escape_string($_GET['opd_nome']);
     $where[] = "opd.nome LIKE '%$opd_nome%'";
 }
 
-// 🔍 FILTRO POR MONTADOR (via OPD)
+
 if (!empty($_GET['montador_nome'])) {
     $montador = $conn->real_escape_string($_GET['montador_nome']);
     $where[] = "opd.montador_nome = '$montador'";
 }
 
-// MONTA WHERE
+
 $whereSql = "";
 if (!empty($where)) {
     $whereSql = "WHERE " . implode(" AND ", $where);
 }
 
-// QUERY FINAL
+
 $sql = "
 SELECT 
     `of`.numero_of,

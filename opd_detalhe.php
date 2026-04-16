@@ -2,7 +2,7 @@
 
 $id = (int) $_GET['id'];
 
-// Buscar OPD
+
 $opd = $conn->query("SELECT * FROM opd WHERE id = $id")->fetch_assoc();
 ?>
 
