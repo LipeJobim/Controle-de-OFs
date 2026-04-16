@@ -101,8 +101,13 @@ CREATE TABLE `opd` (
 --
 
 INSERT INTO `opd` (`id`, `nome`, `montador_nome`) VALUES
+<<<<<<< HEAD
 (1, '000001', 'Ciclano'),
 (2, '000002', 'Fulano');
+=======
+(1, '000001', 'Lucas S'),
+(2, '000002', 'Sarará');
+>>>>>>> 622e15837911ba2e1af6d437349e28ee29144394
 
 --
 -- Índices para tabelas despejadas

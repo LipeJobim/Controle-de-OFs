@@ -5,7 +5,10 @@ body {
     background-color: #f0f6ff;
 }
 
+<<<<<<< HEAD:style.css
 
+=======
+>>>>>>> 622e15837911ba2e1af6d437349e28ee29144394:estilo.css
 .header {
     background: #0d47a1;
     padding: 10px 20px;
@@ -33,7 +36,10 @@ body {
     font-weight: bold;
 }
 
+<<<<<<< HEAD:style.css
 
+=======
+>>>>>>> 622e15837911ba2e1af6d437349e28ee29144394:estilo.css
 .menu {
     background: #1565c0;
     padding: 10px;
@@ -59,26 +65,40 @@ body {
     padding: 20px;
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD:style.css
     align-items: center;
 }
 
 
+=======
+    align-items: center; 
+}
+
+>>>>>>> 622e15837911ba2e1af6d437349e28ee29144394:estilo.css
 h1, h2 {
     color: #0d47a1;
 }
 
+<<<<<<< HEAD:style.css
 h2 {
     text-align: center;
 }
 
 
+=======
+>>>>>>> 622e15837911ba2e1af6d437349e28ee29144394:estilo.css
 form {
     background: white;
     padding: 20px;
     border-radius: 8px;
     max-width: 400px;
+<<<<<<< HEAD:style.css
     width: 100%;
     margin: 0 auto;
+=======
+    width: 100%;              
+    margin: 0 auto;           
+>>>>>>> 622e15837911ba2e1af6d437349e28ee29144394:estilo.css
     box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
 }
 
@@ -106,6 +126,10 @@ button:hover {
     background: #1565c0;
 }
 
+<<<<<<< HEAD:style.css
+=======
+
+>>>>>>> 622e15837911ba2e1af6d437349e28ee29144394:estilo.css
 table {
     width: 100%;
     border-collapse: collapse;
@@ -145,9 +169,19 @@ tr:hover {
     background: #1565c0;
 }
 
+<<<<<<< HEAD:style.css
 
+=======
+>>>>>>> 622e15837911ba2e1af6d437349e28ee29144394:estilo.css
 .form-container {
     display: flex;
     justify-content: center;
     margin-top: 40px;
+<<<<<<< HEAD:style.css
 }
+=======
+}
+h2 {
+    text-align: center;
+}
+>>>>>>> 622e15837911ba2e1af6d437349e28ee29144394:estilo.css
