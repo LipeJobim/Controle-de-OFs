@@ -14,7 +14,7 @@
         <option value="">Selecione a OPD</option>
         <?php
         $opds = $conn->query("SELECT * FROM opd");
-        while($o = $opds->fetch_assoc()){
+        while ($o = $opds->fetch_assoc()) {
             echo "<option value='{$o['id']}'>{$o['nome']}</option>";
         }
         ?>

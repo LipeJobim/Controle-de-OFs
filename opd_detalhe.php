@@ -2,10 +2,6 @@
 
 $id = (int) $_GET['id'];
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 622e15837911ba2e1af6d437349e28ee29144394
 $opd = $conn->query("SELECT * FROM opd WHERE id = $id")->fetch_assoc();
 ?>
 
@@ -13,7 +9,7 @@ $opd = $conn->query("SELECT * FROM opd WHERE id = $id")->fetch_assoc();
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Detalhes OPD</title>
+<title>Detalhes da OPD</title>
 <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
