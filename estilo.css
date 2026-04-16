@@ -1,11 +1,10 @@
-/* RESET */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f0f6ff;
 }
 
-/* HEADER */
 .header {
     background: #0d47a1;
     color: white;
@@ -15,7 +14,6 @@ body {
     font-weight: bold;
 }
 
-/* MENU */
 .menu {
     background: #1565c0;
     padding: 10px;
@@ -36,27 +34,25 @@ body {
     background: #42a5f5;
 }
 
-/* CONTAINER */
+
 .container {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center; /* 👈 centraliza tudo */
+    align-items: center; 
 }
 
-/* TÍTULOS */
 h1, h2 {
     color: #0d47a1;
 }
 
-/* FORMULÁRIOS */
 form {
     background: white;
     padding: 20px;
     border-radius: 8px;
     max-width: 400px;
-    width: 100%;              /* 👈 IMPORTANTE */
-    margin: 0 auto;           /* 👈 CENTRALIZA */
+    width: 100%;              
+    margin: 0 auto;           
     box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
 }
 
@@ -69,7 +65,7 @@ input, select {
     border-radius: 5px;
 }
 
-/* BOTÕES */
+
 button {
     background: #1e88e5;
     color: white;
@@ -84,7 +80,7 @@ button:hover {
     background: #1565c0;
 }
 
-/* TABELA */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -109,7 +105,7 @@ tr:hover {
     background-color: #e3f2fd;
 }
 
-/* BOTÃO LINK */
+
 .btn {
     display: inline-block;
     margin-bottom: 15px;
@@ -123,7 +119,7 @@ tr:hover {
 .btn:hover {
     background: #1565c0;
 }
-/* CENTRALIZAR FORM NA TELA */
+
 .form-container {
     display: flex;
     justify-content: center;
